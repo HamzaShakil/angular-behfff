@@ -37,11 +37,11 @@ import { Component, Input, Output, EventEmitter, TemplateRef } from '@angular/co
 import { Router, ActivatedRoute } from "@angular/router";
 
 /* Models */
-import { GeoCoordinate } from "../../";
+import { GeoCoordinate } from './User';
 
 @Component({
     selector: 'select-map',
-    templateUrl: '../../../theme-admin/admin-components/location/map.component.html'
+    templateUrl: './app.component.html'
 })
     
 export class SelectMapComponent {
