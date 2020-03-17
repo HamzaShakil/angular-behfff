@@ -37,7 +37,7 @@ import { Component, Input, Output, EventEmitter, TemplateRef } from '@angular/co
 import { Router, ActivatedRoute } from "@angular/router";
 
 /* Models */
-import { GeoCoordinate } from '../../../code/models/User';
+import { GeoCoordinate } from "../../";
 
 @Component({
     selector: 'select-map',
